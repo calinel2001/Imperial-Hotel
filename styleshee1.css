@@ -22,7 +22,7 @@
 
 #numehotel,
 #hotel {
-    font-size: 20px;
+    font-size: 1.2em;
 }
 
 .text-primary {
@@ -239,15 +239,14 @@ p {
 /* Features*/
 
 .box {
-    display: flex;
-    flex-wrap: wrap;
+    float: left;
+    width: 33.3%;
+    padding: 50px;
     text-align: center;
-    align-items: flex-start;
-    width: 33%;
-    border: 5px solid red;
-    margin-top: 1px;
-    padding: 2px 2px;
-    display: inline-block;
+}
+
+.box i {
+    margin-bottom: 10px;
 }
 
 #mijloc {
@@ -261,19 +260,22 @@ p {
 }
 
 .menu li {
-    font-size: 10px;
-    padding: 0;
-    margin: 0;
+    font-size: 15px;
 }
 
 
-/* Footer */
+/* About info*/
 
-#main-footer {
-    text-align: center;
-    background: #444;
-    color: #fff;
-    padding: 20px;
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
 }
 
 .clr {
@@ -293,4 +295,41 @@ p {
 
 #margine {
     margin-top: 1px;
+}
+
+.despre {
+    color: #d18726c7;
+    font-size: 30px;
+    display: inline-block;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+
+/* *Padding*/
+
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+
+/* Footer */
+
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
