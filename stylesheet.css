@@ -47,7 +47,7 @@
 
 #margine {
     box-sizing: border-box;
-    margin-top: 2.1vw;
+    margin-top: 3px;
 }
 
 .btn:hover {
@@ -285,6 +285,7 @@ p {
 #features .ceva {
     margin-top: 1px;
     text-align: center;
+    padding:5px;
     margin-bottom: 1vw;
 }
 
@@ -305,9 +306,12 @@ p {
 .font-text #istoria,
 #hotelul-nostru {
     padding: 0;
+    margin-top:0.3px;
+  
 }
 
 
 #margine {
     padding: 4px;
+    margin-bottom:2px;
 }
