@@ -529,3 +529,13 @@ button {
 #main-footer {
     padding-top: 5px;
 }
+
+.container .testimonial {
+    
+    height: 400px;
+    overflow: auto;
+}
+
+.testimonial .text {
+    margin-left: 5px;
+}
