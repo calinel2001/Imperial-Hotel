@@ -165,7 +165,7 @@
         
         #showcase {
             background: url("showcase.jpg") no-repeat center center/cover;
-            min-height: 550px;
+            min-height:100%;
         }
         
         #showcase .showcase-content {
