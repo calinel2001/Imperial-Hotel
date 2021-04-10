@@ -333,7 +333,7 @@ p {
 }
 
 .container {
-    max-height: 150%;
+    max-height: 70%;
     overflow: auto;
 }
 
