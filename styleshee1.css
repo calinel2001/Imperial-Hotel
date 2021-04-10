@@ -525,3 +525,7 @@ button {
 .textcontact {
     margin: 0;
 }
+
+#main-footer {
+    padding-top: 5px;
+}
