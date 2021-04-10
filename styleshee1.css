@@ -491,3 +491,10 @@
 .container .despre1 {
     font-size: 500px;
 }
+
+.contact-us,
+p,
+.form-group,
+button {
+    margin-left: 500px;
+}
