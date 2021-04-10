@@ -25,9 +25,15 @@
     font-size: 20px;
 }
 
+
 .text-primary {
-       color: #fa8e01;
+    color: #fa8e01;
     display: inline-block;
+    text-shadow: 0.5px 0.5px #110f05;
+}
+
+.umbre {
+    text-shadow: 0.5px 0.5px #110f05;
 }
 
 .lead {
