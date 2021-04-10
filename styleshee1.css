@@ -479,3 +479,14 @@
         #testimonials .testimonial img {
             margin-left: 35%;
         }
+
+
+
+#navbar #numehotel,
+#hotel {
+    font-size: 1.5em;
+}
+
+#navbar ul li a {
+    font-size: 1.7em;
+}
