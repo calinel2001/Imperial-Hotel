@@ -17,14 +17,13 @@
 #numehotel {
     margin-top: 0.3vw;
     font-size: 2vw;
- color: #fa8e01;
+    color: #fa8e01;
 }
 
 #numehotel,
 #hotel {
     font-size: 1em;
 }
-
 
 .text-primary {
     color: #fa8e01;
@@ -40,7 +39,6 @@
     font-size: 2vw;
 }
 
-
 .btn {
     margin-top: 20%;
     display: inline-block;
@@ -55,7 +53,7 @@
 
 #margine {
     box-sizing: border-box;
-    margin-top: 3px;
+    margin-top: 2.1vw;
 }
 
 .btn:hover {
@@ -156,7 +154,6 @@ p {
     overflow: hidden;
 }
 
-
 #home-info #indentare {
     display: inline-flexbox;
     text-align: justify;
@@ -221,12 +218,11 @@ p {
 }
 
 #home-info .info-content {
-    margin-top: 1vw;
     font-size: 1vw;
     float: right;
     width: 50%;
     text-align: center;
-    padding: 2vw 1vw;
+    padding: 0.5vw 1vw;
     overflow: hidden;
 }
 
@@ -241,8 +237,6 @@ p {
 #margine:hover {
     border: 1px solid #fa8e01;
 }
-
-
 
 .fas {
     margin-left: 43%;
@@ -294,7 +288,6 @@ p {
 #features .ceva {
     margin-top: 1px;
     text-align: center;
-    padding:5px;
     margin-bottom: 1vw;
 }
 
@@ -312,24 +305,14 @@ p {
     text-align: center;
 }
 
-.font-text #istoria,
-#hotelul-nostru {
-    padding: 0;
-    margin-top:0.3px;
-  
+#testimonials .testimonial {
+    margin-top: 50px;
+    color: red;
 }
-
-
-#margine {
-    padding: 4px;
-    margin-bottom:2px;
-}
-
 
 #navbar ul li a {
-    font-size:500px;
+    font-size: 1em;
 }
-
 
 .box {
     text-align: center;
@@ -342,4 +325,18 @@ p {
     padding: 10px;
     text-align: center;
     font-size: 1.2em;
+}
+
+.box .indent {
+    padding-top: 10px;
+    padding-left: 50px;
+    color: black;
+    margin-left: 500px;
+}
+
+#istoria,
+#hotelul-nostru {
+    margin: 0px;
+    padding: 0px;
+    margin-top: -90px;
 }
