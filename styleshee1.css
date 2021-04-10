@@ -444,7 +444,7 @@ p {
 #contact-form input,
 #contact-form textarea {
     padding: 10px;
-    width: 30%;
+    width: 60%;
     border: 1px #ddd solid;
 }
 
@@ -481,4 +481,9 @@ p {
 #testimonials .testimonial {
     margin-top: 50px;
    
+}
+
+
+#aliniere .container {
+    margin-left: 30%;
 }
