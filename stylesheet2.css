@@ -1,0 +1,858 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: 3%;
+    margin-right: 3%;
+    overflow: auto;
+}
+
+.container {
+    max-height: 50%;
+}
+
+#numehotel {
+    margin-top: 0.3vw;
+    font-size: 2vw;
+    color: #d18726c7;
+}
+
+#numehotel,
+#hotel {
+    font-size: 1.2em;
+}
+
+.text-primary {
+    color: #d18726c7;
+    display: inline-block;
+}
+
+.lead {
+    font-size: 2vw;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 2vw;
+    color: white;
+    background: rgba(149, 58, 58, 0.288);
+    padding: 0.8vw 0.7vw;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1.2vw;
+}
+
+#margine {
+    box-sizing: border-box;
+    margin-top: 2.1vw;
+}
+
+.btn:hover {
+    background: #d18726c7;
+    color: #333;
+}
+
+.btn-light {
+    background: rgba(149, 58, 58, 0.384);
+    color: white;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 2px 0;
+}
+
+.bg-dark {
+    background: #333;
+    color: white;
+}
+
+.bg-light {
+    background: #333;
+    color: #f4f4f4;
+}
+
+.bg-primary {
+    background: #333;
+    color: #d18726c7;
+}
+
+#navbar {
+    background: rgba(80, 37, 37, 0.883);
+    color: white;
+    overflow: auto;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 10px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.font-text,
+.text-primary {
+    margin-top: -30px;
+    font-size: 3em;
+}
+
+.font-text .text-primary,
+.hotelul-nostru {
+    padding-top: 1vw;
+    margin-top: 1.2%;
+    font-size: 2.5vw;
+}
+
+.btn-light {
+    position: relative;
+    margin-left: 18%;
+    text-align: center;
+    padding: 15px 15px;
+    overflow: hidden;
+}
+
+#home-info #indentare {
+    font-size: 1.3vw;
+    text-align: center;
+    margin-left: 52%;
+    margin-right: 2%;
+    padding-top: 0.5vw 0.5vw;
+    margin-bottom: 1vw;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background: rgba(85, 23, 23, 0.486);
+    color: #d18726c7;
+}
+
+
+/*  Pt showcase*/
+
+#showcase {
+    background: url("showcase.jpg") no-repeat center center/cover;
+    min-height: 550px;
+}
+
+#showcase .showcase-content {
+    color: white;
+    text-align: center;
+    padding-top: 10vw;
+    margin-bottom: 2vw;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 5vw;
+    line-height: 1.1em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 5vw;
+    line-height: 1.7em;
+}
+
+
+/* Asta e titlu*/
+
+#titlu .text-primary {
+    font-size: 5vw;
+}
+
+
+/* Home info*/
+
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-content {
+    margin-top: 1vw;
+    font-size: 1vw;
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding: 2vw 1vw;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+
+.font-text #hotelul-nostru {
+    font-size: 2vw;
+}
+
+#margine:hover {
+    border: 3px solid black;
+}
+
+.btn:hover {
+    border: 1px solid black;
+}
+
+
+/* Features*/
+
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+#mijloc {
+    color: #333;
+    background: #f5ab56;
+}
+
+.light {
+    color: #333;
+    background: white;
+}
+
+.menu li {
+    font-size: 15px;
+}
+
+
+/* About info*/
+
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+    box-shadow: 5px 10px solid #888888;
+    height: 100%;
+}
+
+.clr {
+    clear: both;
+}
+
+.l-heading {
+    font-size: 40px;
+}
+
+#features .ceva {
+    margin-top: 1px;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+
+.font-text,
+#istoria {
+    margin-top: 0.3px;
+}
+
+#margine {
+    margin-top: 1px;
+}
+
+.despre {
+    color: #d18726c7;
+    font-size: 30px;
+    display: inline-block;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+
+/* *Padding*/
+
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+
+/* testimonials */
+
+#testimonials {
+    height: 900px;
+    background: url(test-bg.jpg) no-repeat center center/cover;
+    box-shadow: 5px 10px #888888;
+}
+
+.container {
+    max-height: 150%;
+    overflow: auto;
+}
+
+#testimonials h2 {
+    color: white;
+    text-align: center;
+}
+
+#testimonials .testimonial img {
+    margin-top: 20px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#testimonials .testimonial {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+/* Footer */
+
+#main-footer {
+    margin-top: -20px;
+    margin-bottom: 5px;
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+.container .despre1 {
+    font-size: 1.5vw;
+}
+
+.container .color {
+    background-color: rgba(247, 146, 38, 0.796);
+    opacity: 0.98;
+}
+
+.container .text {
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+.despre {
+    padding-bottom: 60px;
+}
+
+.despre1 {
+    font-size: 1.2vw;
+    width: 80%;
+}
+
+@keyframes culoare {
+    0% {
+        transform: scale(0.7);
+        color: rgba(235, 148, 18, 0.885);
+    }
+    25% {
+        transform: scale(0.7);
+        color: rgb(253, 165, 0);
+    }
+    50% {
+        transform: scale(0.7);
+        color: rgb(233, 126, 11);
+    }
+    75% {
+        transform: scale(1.5);
+        color: rgba(247, 150, 23, 0.96);
+    }
+    100% {
+        transform: scale(1.5);
+        color: rgb(243, 138, 0);
+    }
+}
+
+#titlu:hover {
+    animation: culoare 4s linear infinite;
+}
+
+.l-heading {
+    margin-top: 20px;
+}
+
+#titlu {
+    font-size: 30px;
+}
+
+.container .contact-us {
+    padding-top: 20px;
+    color: rgba(247, 146, 38, 0.796);
+    font-size: 60px;
+}
+
+
+/* Contact Form*/
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    width: 60%;
+    border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+.btn2 {
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    background: rgba(247, 146, 38, 0.796);
+    color: black;
+}
+
+.btn2:hover {
+    background: rgba(189, 11, 11, 0.344);
+    color: black;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: rgba(247, 146, 38, 0.796);
+}
+
+.box,
+#mijloc {
+    border-top: 1px solid black;
+}
+
+#testimonials .testimonial {
+    margin-top: 7em;
+    padding: 20px;
+}
+
+.container .testimonial {
+    padding: 0;
+    margin-left: 1px;
+    float: left;
+}
+
+.container .testimonial {
+    min-height: 30%;
+    width: 30%;
+    margin-right: 30px;
+}
+
+#testimonials .testimonial img {
+    margin-left: 35%;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: 3%;
+    margin-right: 3%;
+    overflow: auto;
+}
+
+.container {
+    max-height: 50%;
+}
+
+#numehotel {
+    margin-top: 0.3vw;
+    font-size: 2vw;
+    color: #fa8e01;
+}
+
+#numehotel,
+#hotel {
+    font-size: 1em;
+}
+
+.text-primary {
+    color: #fa8e01;
+    display: inline-block;
+    text-shadow: 0.5px 0.5px #110f05;
+}
+
+.umbre {
+    text-shadow: 0.5px 0.5px #110f05;
+}
+
+.lead {
+    font-size: 2vw;
+}
+
+.btn {
+    margin-top: 20%;
+    display: inline-block;
+    font-size: 2vw;
+    color: white;
+    background: rgba(149, 58, 58, 0.288);
+    padding: 0.8vw 0.7vw;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0.2vw;
+}
+
+#margine {
+    box-sizing: border-box;
+    margin-top: 2.1vw;
+}
+
+.btn:hover {
+    transition: 2.5s;
+    background: #d18726c7;
+    color: #333;
+}
+
+.btn-light {
+    background: rgba(149, 58, 58, 0.384);
+    color: white;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 2px 0;
+}
+
+.bg-dark {
+    background: #333;
+    color: white;
+}
+
+.bg-light {
+    background: #333;
+    color: #f4f4f4;
+}
+
+.bg-primary {
+    background: #333;
+    color: #d18726c7;
+}
+
+#navbar {
+    background: rgba(80, 37, 37, 0.883);
+    color: white;
+    overflow: auto;
+}
+
+#navbar a {
+    color: white;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 10px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.font-text,
+.text-primary {
+    margin-top: -30px;
+    font-size: 3em;
+}
+
+.font-text .text-primary,
+.hotelul-nostru {
+    padding-top: 1vw;
+    margin-top: 1.2%;
+    font-size: 2.5vw;
+}
+
+.btn-light {
+    position: relative;
+    margin-left: 18%;
+    text-align: center;
+    padding: 15px 15px;
+    overflow: hidden;
+}
+
+#home-info #indentare {
+    display: inline-flexbox;
+    text-align: justify;
+    font-size: 1.3vw;
+    margin-left: 52%;
+    margin-right: 2%;
+    padding-top: 0.5vw 0.5vw;
+    margin-bottom: 1vw;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background: rgba(85, 23, 23, 0.486);
+    color: #d18726c7;
+}
+
+
+/*  Pt showcase*/
+
+#showcase {
+    background: url("imagini/showcase.jpg") no-repeat center center/cover;
+    min-height: 550px;
+}
+
+#showcase .showcase-content {
+    color: white;
+    text-align: center;
+    padding-top: 10vw;
+    margin-bottom: 2vw;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 5vw;
+    line-height: 1.1em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 5vw;
+    line-height: 1.7em;
+}
+
+
+/* Asta e titlu*/
+
+#titlu .text-primary {
+    font-size: 5vw;
+}
+
+
+/* Home info*/
+
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: url(imagini/photo-1.jpg) no-repeat;
+    border-right: 1px solid white;
+}
+
+#home-info .info-content {
+    font-size: 1vw;
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding: 0.5vw 1vw;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+
+.font-text #hotelul-nostru {
+    font-size: 2vw;
+}
+
+#margine:hover {
+    border: 1px solid #fa8e01;
+}
+
+.fas {
+    margin-left: 43%;
+}
+
+
+/* Features*/
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 33%;
+    margin-top: 1px;
+    display: inline-flex;
+    padding: 10px 7px;
+}
+
+#mijloc {
+    color: #333;
+    background: #f5ab56;
+}
+
+.light {
+    color: #333;
+    background: white;
+}
+
+.menu li {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Footer */
+
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+.clr {
+    clear: both;
+}
+
+#features .ceva {
+    margin-top: 1px;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+
+.font-text,
+#istoria {
+    margin-top: 0.3px;
+}
+
+#margine {
+    margin-top: 1px;
+}
+
+#features .indent {
+    margin-left: 25%;
+    text-align: center;
+}
+
+#testimonials .testimonial {
+    margin-top: 50px;
+    color: red;
+}
+
+#navbar ul li a {
+    font-size: 1em;
+}
+
+.box {
+    text-align: center;
+    min-width: 300px;
+    align-items: center;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.box .indent {
+    padding-top: 10px;
+    padding-left: 50px;
+    color: black;
+    margin-left: 500px;
+}
+
+#istoria,
+#hotelul-nostru {
+    margin: 0px;
+    padding: 0px;
+    margin-top: -90px;
+}
+
+#navbar #numehotel,
+#hotel {
+    font-size: 1.5em;
+}
+
+#navbar ul li a {
+    font-size: 1.7em;
+}
