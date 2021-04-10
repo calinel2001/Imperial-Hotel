@@ -329,3 +329,10 @@ p {
 #navbar ul li a {
     font-size: 1.1em;
 }
+
+
+.box {
+    text-align: center;
+    min-width: 300px;
+    align-items: center;
+}
