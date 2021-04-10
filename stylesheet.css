@@ -242,12 +242,10 @@ p {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    align-items: flex-start;
     width: 33%;
-    border: 5px solid red;
     margin-top: 1px;
-    padding: 2px 2px;
-    display: inline-block;
+    display: inline-flex;
+    padding: 3px 7px;
 }
 
 #mijloc {
