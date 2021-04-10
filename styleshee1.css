@@ -498,3 +498,13 @@ p,
 button {
     margin-left: 500px;
 }
+
+
+#mijloc {
+    margin: 0;
+    max-height: 253px;
+}
+
+#contact-info p {
+    margin-left: 5px;
+}
